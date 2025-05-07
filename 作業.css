@@ -1,0 +1,10 @@
+.list {
+    display: flex;
+    justify-content: center; /* 置中排列 */
+    gap: 20px; /* 每個項目之間的間距 */
+    flex-wrap: wrap; /* 如果螢幕太小就換行 */
+}
+
+.item {
+    text-align: center; /* 讓文字和圖片置中 */
+}
