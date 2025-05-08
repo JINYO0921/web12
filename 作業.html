@@ -7,27 +7,59 @@
     <link rel="stylesheet" type="text/css" href="作業.css">
 </head>
 <body>
+    <div class="headline"><h1>這是一個介紹我們摺的紙飛機的網頁</h1></div>
+    <div class="navbar" id="myNavbar">
+        <span class="menu-icon" onclick="toggleMenu()">☰</span>
+        <div class="navbar-links">
+          <a href="#option 1">選項一</a>
+          <a href="#option 2">選項二</a>
+          <a href="#option 3">選項三</a>
+          <a href="#option 4">選項四</a>
+          <a href="#option 5">選項五</a>
+          <a href="#option 6">選項六</a>
+        </div>
+      </div>
+      
+      <script>
+        function toggleMenu() {
+          var navbar = document.getElementById("myNavbar");
+          navbar.classList.toggle("responsive");
+        }
+      </script>
+
     <div class="list">
         <div class="item">
             <h2>郭晉佑</h2>
             <img src="IMG_0943.jpg" alt="郭晉佑" width="200">
-            <p>這是我的紙飛機</p>
+            <h3>這是我的紙飛機</h3>
         </div>
         <div class="item">
             <h2>陳嘉翰</h2>
             <img src="IMG_0944.jpg" alt="陳嘉翰" width="200">
-            <p>這是陳嘉翰的紙飛機</p>
+            <h3>這是陳嘉翰的紙飛機</h3>
         </div>
         <div class="item">
             <h2>許洧承</h2>
             <img src="IMG_0945.jpg" alt="許洧承" width="200">
-            <p>這是許洧承的紙飛機</p>
+            <h3>這是許洧承的紙飛機</h3>
         </div>
         <div class="item">
             <h2>王豪葳</h2>
             <img src="IMG_0946.jpg" alt="王豪葳" width="200">
-            <p>這是王豪葳的紙飛機</p>
+            <h3>這是王豪葳的紙飛機</h3>
         </div>
+        <div class="item">
+          <h2>黃金海岸</h2>
+          <img src="IMG_0948.jpg" alt="黃金海岸" width="200">
+          <h3>這是我在黃金海岸拍的照片</h3>
+      </div>
+      <div class="item">
+        <h2>我自己</h2>
+        <img src="IMG_0947.JPG" alt="我自己" width="200">
+        <h3>這也是我在黃金海岸拍的照片</h3>
+
     </div>
+    
+  </div>
 </body>
 </html>
